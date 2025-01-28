@@ -1,0 +1,16 @@
+Step-1  installing and necessary python libraries
+Step-2  Loading the dataset to the colab notebook (21 classes, 100 images per class)
+Step-3  Train-Test-val split 70-20-10 ratio
+Step-4  Feature Extraction using SIFT module
+Step-5  Model Training
+	K-Means Clustering for all the descriptors
+	Creating Histograms using those Descriptors
+	Model Training (SVM)
+	Model Training (KNN)
+	Code Word Count (Bag of word count) - [10, 20, 50, 100]
+Step-6 	Model Evaluation
+	the train and test accuracies was plotted for all the 4 considered word count 
+Observations - 
+	KNN model works better when the word count is 20 showing around 56.5% accuracy 
+	SVM model works better with word count 20 showing test accuracy of 56% as well.
+	T-SNE reduction was done as well.
